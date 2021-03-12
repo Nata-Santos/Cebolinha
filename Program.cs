@@ -15,7 +15,7 @@ namespace Cebolinha
            Console.ForegroundColor = ConsoleColor.DarkGreen;
            cebolinha = Console.ReadLine();
            Console.WriteLine();
-           Console.WriteLine($"{cebolinha.Replace("r", "l")}");
+           Console.WriteLine($"{cebolinha.Replace("r", "l").Replace("rr", "l").Replace("R", "L").Replace("RR", "L")}");
            Console.ResetColor();    
         }
     }
